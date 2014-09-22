@@ -85,13 +85,13 @@
         <?php
         $current_language = "ru";
         switch($current_language) {
-        case 'et':
+        case "et":
     		echo "Tere! Kuidas sul läheb?";
         break;
         case "ru":
     		echo "Здравствуйте! Как вы делаете?";
         break;  
-        case 'fi':
+        case "fi":
     		echo "Hei! Miten menee?";
         break;
         }
