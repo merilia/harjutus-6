@@ -96,6 +96,6 @@
     break;
     }
 	?>
-	</body>
-	</html>
+</body>
+</html>
 		
