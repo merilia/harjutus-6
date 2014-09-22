@@ -29,36 +29,36 @@
 	}
 	?>
 	<?php
-    if (4 < 4) {
-        echo "4 on väiksem kui 4";
-    } 
-    elseif (4 == 4) {
-        // Kuna see on tõene, siis väljastatakse see tekst.
-        echo "4 on 4";
-        echo "<br>";
-    } 
-    elseif (4 > 4) {
-        echo "4 on suurem kui 4";       
-    }
-    $age = 20;
-    $age_limit = 18;
-    $n = $age - $age_limit;
-    if ($age < $age_limit) {
+        if (4 < 4) {
+        	echo "4 on väiksem kui 4";
+        } 
+        elseif (4 == 4) {
+        	// Kuna see on tõene, siis väljastatakse see tekst.
+        	echo "4 on 4";
+        	echo "<br>";
+        } 
+        elseif (4 > 4) {
+        	echo "4 on suurem kui 4";       
+        }
+        $age = 20;
+        $age_limit = 18;
+        $n = $age - $age_limit;
+        if ($age < $age_limit) {
 		echo "Kahjuks olete liiga noor. Te peate olema vähemalt $age_limit aastat vana. Tulge $n aasta pärast tagasi";
 	} 
 	elseif ($age > $age_limit) {
-        echo "Olete piisavalt vana. Tulge edasi!";
-        // Kuna see on tõene, siis väljastatakse see tekst.
-        echo "<br>";
+        	echo "Olete piisavalt vana. Tulge edasi!";
+		// Kuna see on tõene, siis väljastatakse see tekst.
+        	echo "<br>";
         }
-    $age = 18;
-    if ($age < $age_limit) {
+        $age = 18;
+        if ($age < $age_limit) {
 		echo "Kahjuks olete liiga noor. Te peate olema vähemalt $age_limit aastat vana. Tulge $n aasta pärast tagasi";
 	} 
 	elseif ($age > $age_limit) {
-        echo "Olete piisavalt vana. Tulge edasi!";
+        	echo "Olete piisavalt vana. Tulge edasi!";
         }
-    elseif ($age = $age_limit) {
+        elseif ($age = $age_limit) {
 		echo "Olete piisavalt vana. Tulge edasi!";
 		echo "<br>";
 	}
@@ -78,23 +78,23 @@
 		// Info kuvatakse, sest üks osa lausest on tõene ning sellest piisab.
 	}
 	if (!isset($nothing)) {
-        echo "Mina peaksin nähtavale tulema.";
-    }
-    ?>
-    <h3>Switch</h3>
-    <?php
-    $current_language = "ru";
-    switch($current_language) {
-    case 'et':
-    	echo "Tere! Kuidas sul läheb?";
-    break;
-    case "ru":
-    	echo "Здравствуйте! Как вы делаете?";
-    break;  
-    case 'fi':
-    	echo "Hei! Miten menee?";
-    break;
-    }
+        	echo "Mina peaksin nähtavale tulema.";
+        }
+        ?>
+        <h3>Switch</h3>
+        <?php
+        $current_language = "ru";
+        switch($current_language) {
+        case 'et':
+    		echo "Tere! Kuidas sul läheb?";
+        break;
+        case "ru":
+    		echo "Здравствуйте! Как вы делаете?";
+        break;  
+        case 'fi':
+    		echo "Hei! Miten menee?";
+        break;
+        }
 	?>
 </body>
 </html>
